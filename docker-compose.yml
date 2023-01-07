@@ -3,6 +3,8 @@ version: "3.8"
 services:
   tasmogo:
     build: .
+    Port:
+      - "8000:80/tcp"
     environment:
       - TASMOGO_DOUPDATES=true
       - TASMOGO_DAEMON=true
