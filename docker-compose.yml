@@ -3,6 +3,8 @@ version: "3.8"
 services:
   tasmogo:
     image: merlinschumacher/tasmogo
+    ports:
+      - 8080:8080
     environment:
       - TASMOGO_DOUPDATES=true
       - TASMOGO_DAEMON=true
