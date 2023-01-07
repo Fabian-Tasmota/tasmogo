@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   tasmogo:
+    image: merlinschumacher/tasmogo
     build: .
     environment:
       - TASMOGO_DOUPDATES=true
