@@ -5,7 +5,7 @@ services:
     build: .
     environment:
       - TASMOGO_DOUPDATES=true
-      - TASMOGO_DAEMON=true
+      - TASMOGO_DAEMON=false
       - TASMOGO_CIDR=192.168.0.0/24
       - TZ=Europe/Berlin
       - TASMOGO_OTAURL=http://ota.tasmota.com/tasmota/release/tasmota-DE.bin
