@@ -8,6 +8,6 @@ services:
       - TASMOGO_DAEMON=true
       - TASMOGO_CIDR=192.168.0.0/24
       - TZ=Europe/Berlin
-      - TASMOGO_OTAURL=http://ota.tasmota.com/tasmota/release/tasmota-DE.bin
+      - TASMOGO_OTAURL/http://ota.tasmota.com/tasmota/release/tasmota-DE.bin
     network_mode: host
     restart: always
