@@ -3,12 +3,11 @@ version: "3.8"
 services:
   tasmogo:
     build: .
-    Port:
-      - "8000:80/tcp"
     environment:
       - TASMOGO_DOUPDATES=true
       - TASMOGO_DAEMON=true
       - TASMOGO_CIDR=192.168.178.0/24
       - TZ=Europe/Berlin
+      - TASMOGO_OTAURL=
     network_mode: host
     restart: always
