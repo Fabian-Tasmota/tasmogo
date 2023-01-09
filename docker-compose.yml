@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   tasmogo:
-    build: .
+    image: fabian-tasmota/tasmogo
     environment:
       - TASMOGO_DOUPDATES=true
       - TASMOGO_DAEMON=false
