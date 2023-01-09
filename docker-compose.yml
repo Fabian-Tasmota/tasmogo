@@ -8,7 +8,7 @@ services:
       - TASMOGO_DAEMON=false
       - TASMOGO_CIDR=192.168.0.0/24
       - TASMOGO_PASSWORD=
-      - TASMOGO_OTAURL=http://ota.tasmota.com/tasmota/release/
+      - TASMOGO_OTAURL=http://ota.tasmota.com/tasmota
       - TZ=Europe/Berlin
     network_mode: host
     restart: always
