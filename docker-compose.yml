@@ -9,7 +9,6 @@ services:
       - TASMOGO_CIDR=192.168.178.0/24
       - TASMOGO_OTAURL=http://ota.tasmota.com/tasmota/release/
       - TASMOGO_PASSWORD=
-      - TASMOGO_PASSWORD=
       - TZ=Europe/Berlin
     network_mode: host
     restart: always
