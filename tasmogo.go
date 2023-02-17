@@ -264,7 +264,7 @@ func updateDevices(devices []tasmoDevice) {
 			var otaURL string
 			// select filename for the default build and special variants
 			if device.FirmwareType == "tasmota" {
-				otaURL = otaBaseURL + "DE.bin"
+				otaURL = otaBaseURL + "-DE.bin.gz"
 			} else {
 				otaURL = otaBaseURL + "-" + device.FirmwareType + ".bin"
 			}
